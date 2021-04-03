@@ -1,6 +1,6 @@
 from enum import Enum
 
-class Pliny_books(Enum):
+class Pliny_book(Enum):
     I = "Plinius/Epistulae1.txt"
     II = "Plinius/Epistulae2.txt"
     III = "Plinius/Epistulae3.txt"
@@ -11,3 +11,21 @@ class Pliny_books(Enum):
     VIII = "Plinius/Epistulae8.txt"
     IX = "Plinius/Epistulae9.txt"
     X = "Plinius/Epistulae10.txt"
+
+class Cicero_book(Enum):
+    I = "Cicero/Fam1.txt"
+    II = "Cicero/Fam2.txt"
+    III = "Cicero/Fam3.txt"
+    IV = "Cicero/Fam4.txt"
+    V = "Cicero/Fam5.txt"
+    VI  = "Cicero/Fam6.txt"
+    VII = "Cicero/Fam7.txt"
+    VIII = "Cicero/Fam8.txt"
+    IX = "Cicero/Fam9.txt"
+    X = "Cicero/Fam10.txt"
+    XI = "Cicero/Fam11.txt"
+    XII = "Cicero/Fam12.txt"
+    XIII = "Cicero/Fam13.txt"
+    XIV = "Cicero/Fam14.txt"
+    XV = "Cicero/Fam15.txt"
+    XVI = "Cicero/Fam16.txt"
